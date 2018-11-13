@@ -9,10 +9,10 @@ function getRule(dictionary, pathName) {
     var result = dictionary.filter(function(item) {
         switch (Object.prototype.toString.call(item.location)) {
             case '[object String]':
-                return item.location == spathname;
+                return item.location == pathName;
                 break;
             case '[object RegExp]':
-                return item.location.test(spathname);
+                return item.location.test(pathName);
                 break;
             default:
                 return false;
