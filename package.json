@@ -1,7 +1,7 @@
 {
   "name": "connect-parse-proxy",
   "version": "1.0.0",
-  "description": "reverse proxy middleware",
+  "description": "reverse proxy middleware(反相代理中间件)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/ikun/connect-parse-proxy/issues"
   },
-  "homepage": "https://github.com/ikun/connect-parse-proxy#readme"
+  "homepage": "https://github.com/ikun/connect-parse-proxy#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "get": "^1.4.0"
+  }
 }
