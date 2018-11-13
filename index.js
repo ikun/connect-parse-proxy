@@ -18,7 +18,7 @@ function getRule(dictionary, pathName) {
                 return false;
         }
     });
-    return result.length ? reslut[0] : null;
+    return result.length ? result[0] : null;
 }
 
 function getUrlPass(req, pass) {
