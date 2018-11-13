@@ -1,0 +1,23 @@
+{
+  "name": "connect-parse-proxy",
+  "version": "1.0.0",
+  "description": "reverse proxy middleware",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ikun/connect-parse-proxy.git"
+  },
+  "keywords": [
+    "connect",
+    "proxy"
+  ],
+  "author": "ikuner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ikun/connect-parse-proxy/issues"
+  },
+  "homepage": "https://github.com/ikun/connect-parse-proxy#readme"
+}
