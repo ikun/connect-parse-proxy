@@ -22,7 +22,7 @@ function getRule(dictionary, pathName) {
 }
 
 function getUrlPass(req, pass) {
-    typeof pass == 'function' ? pass(req) : pass;
+    return typeof pass == 'function' ? pass(req) : pass;
 }
 module.exports = function proxyMiddleware(dictionary) {
     return function(req, res, next) {
