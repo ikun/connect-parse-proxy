@@ -34,6 +34,6 @@ grunt.initConfig({
 
 ## 参数说明
 
-- location String|Regexp 匹配要访问的url
+- location String|RegExp 匹配要访问的url
 - pass String|Function 实际访问的url，可以为本地的另一个地址
 - type String 如果pass地址为其他域名的url，则会根据type设置返回头的 Content-Type, 默认值为'text/html; charset=utf-8'
