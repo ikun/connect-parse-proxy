@@ -36,7 +36,7 @@ module.exports = function proxyMiddleware(dictionary) {
             if (urlPass.indexOf('http') === 0) {
                 get(urlPass + '?' + getParams).asBuffer(function(error, data) {
                     var status = error ? 500 : 200;
-                    var content = error || data.toString();
+                    var content = error ? JSON.stringify(error) : data.toString();
                     var contentType = rule.type || 'text/html; charset=utf-8';
                     res.writeHead(status, { 'Content-Type': contentType });
                     res.write(content);

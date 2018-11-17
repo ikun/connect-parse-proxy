@@ -11,4 +11,8 @@
 
 ## 1.0.3
 
-- 添加 readme 及 cahngelog
+- 添加 readme 及 changelog
+
+## 1.0.4
+
+- 当反向代理当接口500时，向req写入了error对象，导致bug。fixbug: Fatal error: First argument must be a string or Buffer
